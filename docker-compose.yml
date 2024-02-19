@@ -1,0 +1,11 @@
+version: "3"
+services:
+  vue_web:
+    container_name: vue_web
+    build:
+      context: .
+    volumes:
+      - .:/app
+    ports:
+      - "8080:80"
+    command: ["npm", "run", "preview"]
