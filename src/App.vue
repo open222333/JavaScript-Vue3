@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Login from "./components/LoginC.vue"; // 引入登入组件
+import Login from "./components/Form.vue"; // 引入登入组件
 import HelloWorld from "./components/HelloWorld.vue";
 import LabelSample from "./components/LabelSample.vue";
 import ButtonSample from "./components/ButtonSample.vue";
@@ -24,8 +24,7 @@ export default {
 /* 全局样式 */
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: 0;  padding: 0;
 }
 
 #app {
